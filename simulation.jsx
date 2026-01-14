@@ -908,4 +908,4 @@ const GameTheorySimulation = () => {
   );
 };
 
-export default GameTheorySimulation;
+window.GameTheorySimulation = GameTheorySimulation;
