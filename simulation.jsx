@@ -904,6 +904,32 @@ const GameTheorySimulation = () => {
           </div>
         </div>
       </div>
+      
+      {/* Footer */}
+      <div style={{
+        textAlign: 'center',
+        marginTop: '30px',
+        padding: '20px',
+        borderTop: '1px solid #30363d',
+        color: '#8b949e',
+        fontSize: '0.85rem',
+      }}>
+        <a
+          href="https://github.com/lurnake/game-theory-orcs-vs-hobbits-simulator"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: '#79c0ff',
+            textDecoration: 'none',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+          }}
+        >
+          <span>🔗</span>
+          <span>View on GitHub</span>
+        </a>
+      </div>
     </div>
   );
 };
